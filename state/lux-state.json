@@ -1,6 +1,6 @@
 {
   "_schema": "lux-state-v1",
-  "_generated": "2026-02-19T14:49:07.699Z",
+  "_generated": "2026-02-19T14:52:47.381Z",
   "_generator": "scripts/write-state.mjs",
   "_purpose": "Auto-bootstrap context for new Claude Code sessions",
   "tokens": {
@@ -75,9 +75,10 @@
     "patExpiry": "2026-05-20"
   },
   "pendingWork": [
+    "DEV deployment — paste 9 bot prompts into Claude.ai Projects (deploy-dev-bots.ps1)",
     "TLM credential remediation (cmdkey /delete:TLM-NOC-FS, Google Drive, Office MRU)",
-    "LuxSysAdmin bot build (LUX-214)",
     "GitHub org setup (luxedeum — pending payment)",
-    "SSO SP-side configuration (Slack, GitHub, Linear)"
+    "SSO SP-side configuration (Slack, GitHub, Linear)",
+    "Chris Kopitch Okta onboarding"
   ]
 }
