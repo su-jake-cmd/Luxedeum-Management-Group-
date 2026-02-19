@@ -1,0 +1,83 @@
+{
+  "_schema": "lux-state-v1",
+  "_generated": "2026-02-19T13:26:58.505Z",
+  "_generator": "scripts/write-state.mjs",
+  "_purpose": "Auto-bootstrap context for new Claude Code sessions",
+  "tokens": {
+    "summary": "5/5 LIVE",
+    "services": [
+      {
+        "name": "Slack",
+        "status": "LIVE",
+        "user": "sujake"
+      },
+      {
+        "name": "Okta",
+        "status": "LIVE",
+        "user": "su-jake@luxedeum.com"
+      },
+      {
+        "name": "Linear",
+        "status": "LIVE",
+        "user": "jake@luxedeum.com"
+      },
+      {
+        "name": "Notion",
+        "status": "LIVE",
+        "user": "Luxedeum Ops - n8n Automation"
+      },
+      {
+        "name": "GitHub",
+        "status": "LIVE",
+        "user": "su-jake-cmd"
+      }
+    ]
+  },
+  "infrastructure": {
+    "apiModule": "scripts/lux-api.mjs",
+    "apiModuleExists": true,
+    "envFile": ".env",
+    "envFileExists": true
+  },
+  "slack": {
+    "workspace": "luxedeum.slack.com",
+    "teamId": "T0AF0L3C6KT",
+    "botApp": "Lux Automation (A0AFZMJ2R7W)",
+    "channels": {
+      "automation-data": "C0AFZAHNJJ0",
+      "automation-checksum": "C0AFVNBFCQ2",
+      "automation-sync": "C0AFVN7R35G",
+      "automation-security": "C0AFS9V6RKP",
+      "ops-compliance": "C0AEUQPLJUB",
+      "all-luxedeum": "C0AFG1EM47J"
+    }
+  },
+  "okta": {
+    "domain": "Trial-2719109.okta.com",
+    "admin": "su-jake@luxedeum.com"
+  },
+  "linear": {
+    "team": "Luxedeum",
+    "keyIssues": [
+      "LUX-142",
+      "LUX-158",
+      "LUX-159",
+      "LUX-161",
+      "LUX-179",
+      "LUX-180",
+      "LUX-181",
+      "LUX-182",
+      "LUX-214"
+    ]
+  },
+  "github": {
+    "serviceAccount": "su-jake-cmd",
+    "patExpiry": "2026-05-20"
+  },
+  "pendingWork": [
+    "TLM credential remediation (cmdkey /delete:TLM-NOC-FS, Google Drive, Office MRU)",
+    "LuxSysAdmin bot build (LUX-214)",
+    "GitHub org setup (luxedeum — pending payment)",
+    "SSO SP-side configuration (Slack, GitHub, Linear)"
+  ]
+}
