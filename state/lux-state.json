@@ -1,6 +1,6 @@
 {
   "_schema": "lux-state-v1",
-  "_generated": "2026-02-19T16:32:02.756Z",
+  "_generated": "2026-02-19T16:32:53.660Z",
   "_generator": "scripts/write-state.mjs",
   "_purpose": "Auto-bootstrap context for new Claude Code sessions",
   "tokens": {
@@ -67,7 +67,8 @@
       "LUX-180",
       "LUX-181",
       "LUX-182",
-      "LUX-214"
+      "LUX-214",
+      "LUX-222"
     ]
   },
   "github": {
@@ -75,7 +76,7 @@
     "patExpiry": "2026-05-20"
   },
   "pendingWork": [
-    "DEV deployment — paste 9 bot prompts into Claude.ai Projects (deploy-dev-bots.ps1)",
+    "DEV deployment — paste 10 bot prompts into Claude.ai Projects (deploy-dev-bots.ps1)",
     "TLM credential remediation (cmdkey /delete:TLM-NOC-FS, Google Drive, Office MRU)",
     "GitHub org setup (luxedeum — pending payment)",
     "SSO SP-side configuration (Slack, GitHub, Linear)",
