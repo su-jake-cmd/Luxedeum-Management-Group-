@@ -1,8 +1,44 @@
 {
-  "_schema": "lux-state-v1",
-  "_generated": "2026-02-19T23:05:06.066Z",
+  "_schema": "lux-state-v2",
+  "_generated": "2026-02-20T02:32:43.941Z",
   "_generator": "scripts/write-state.mjs",
   "_purpose": "Auto-bootstrap context for new Claude Code sessions",
+  "_distribution": {
+    "topology": "5-node georedundant mesh",
+    "nodes": [
+      {
+        "id": 0,
+        "name": "LOCAL",
+        "provider": "filesystem",
+        "location": "Jake PC"
+      },
+      {
+        "id": 1,
+        "name": "GITHUB",
+        "provider": "Microsoft/Azure",
+        "location": "US"
+      },
+      {
+        "id": 2,
+        "name": "SLACK",
+        "provider": "Salesforce/AWS",
+        "location": "US"
+      },
+      {
+        "id": 3,
+        "name": "NOTION",
+        "provider": "Notion Labs/AWS",
+        "location": "US"
+      },
+      {
+        "id": 4,
+        "name": "LINEAR",
+        "provider": "Linear Inc",
+        "location": "US"
+      }
+    ],
+    "minimumSurvival": "1 of 5 nodes"
+  },
   "tokens": {
     "summary": "5/5 LIVE",
     "services": [
